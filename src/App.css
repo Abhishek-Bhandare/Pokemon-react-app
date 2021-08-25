@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  /* margin-top: 20px; */
+}
+.TitleSection{
+  background-color: deepskyblue;
+  width: 100%;
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: whitesmoke;
+}
+.TitleSection input{
+  border-radius: 5px;
+  height: 30px;
+  width: 260px;
+  margin-top: 25px;
+  font-size: 15px;
+  border: 2px solid rgb(20, 182, 236);
+}
+.TitleSection h1{
+  margin-top: 20px;
+}
+.TitleSection button{
+  border-radius: 5px;
+  height: 40px;
+  width: 200px;
+  margin-top: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(31, 80, 158);
+  color: beige;
+}
+.TitleSection button:hover{
+  background-color: rgb(12, 55, 124);
+}
+.DisplaySection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(208, 237, 247);
+}
+.DisplaySection h4,h3{
+  margin: 0;
+}
+.DisplaySection img{
+  width: 220px;
+}
+.DisplaySection h1{
+  text-transform: uppercase;
+}
